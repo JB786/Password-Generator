@@ -1,0 +1,40 @@
+<!-- Question:
+Create a JS program capable of generating a password which contains atleast one lowercase, one uppercase and one special characters. Create a Password class to achieve the same. -->
+
+<!-- password class:
+    generateweakpassword
+    generatestrongpassword
+    generatesuperstrongpassword
+    generatefunnypassword -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generating Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="alert">
+        <p>Copied To Clipboard❕</p>
+        <button class="cancel">╳</button>
+    </div>
+    <div id="generate-window">
+        <h1>Welcome to Password Generator</h1>
+        <div class="buttons">
+            <button class="generate">Generate Password</button>
+            <button class="copy">Copy To Clipboard</button>
+            <button class="delete">Clear Password</button>
+        </div>
+        <h2>Your Generated Password :</h2>
+        <div class="display">
+            <input type="text" name="password" id="password" placeholder="None" disabled>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
